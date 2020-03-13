@@ -165,7 +165,7 @@ class CriticalRequestChainRenderer {
    * @param {DOM} dom
    * @param {ParentNode} templateContext
    * @param {LH.Audit.Details.CriticalRequestChain} details
-   * @param {DetailsRenderer} detailsRenderer "any" currently ... uhoh
+   * @param {DetailsRenderer} detailsRenderer
    * @return {Element}
    */
   static render(dom, templateContext, details, detailsRenderer) {
