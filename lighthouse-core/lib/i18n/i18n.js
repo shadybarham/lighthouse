@@ -58,11 +58,11 @@ const UIStrings = {
   columnURL: 'URL',
   /** Label for a column in a data table; entries will be the size or quantity of some resource, e.g. the width and height dimensions of an image or the number of images in a web page. */
   columnSize: 'Size',
-  /** Label for a column in a data table; entries will be the transfer size (on the wire) of a web resource in kilobytes. */
+  /** Label for a column in a data table; entries will be the file size of a web resource in kilobytes. */
   columnResourceSize: 'Resource Size',
-  /** Label for a column in a data table; entries will be the time to live value of the cache header on a web resource. */
+  /** Label for a column in a data table; entries will be the download size of a web resource in kilobytes. */
   columnTransferSize: 'Transfer Size',
-  /** Label for a column in a data table; entries will be the resource size (post-decoding) of a web resource in kilobytes. */
+  /** Label for a column in a data table; entries will be the time to live value of the cache header on a web resource. */
   columnCacheTTL: 'Cache TTL',
   /** Label for a column in a data table; entries will be the number of kilobytes the user could reduce their page by if they implemented the suggestions. */
   columnWastedBytes: 'Potential Savings',
