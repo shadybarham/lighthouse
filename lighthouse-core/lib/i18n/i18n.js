@@ -56,7 +56,7 @@ const UIStrings = {
   displayValueMsSavings: 'Potential savings of {wastedMs, number, milliseconds}\xa0ms',
   /** Label for a column in a data table; entries will be the URL of a web resource */
   columnURL: 'URL',
-  /** Label for a column in a data table; entries will be the size of something resource (generic). */
+  /** Label for a column in a data table; entries will be the size or quantity of some resource, e.g. the width and height dimensions of an image or the number of images in a web page. */
   columnSize: 'Size',
   /** Label for a column in a data table; entries will be the transfer size (on the wire) of a web resource in kilobytes. */
   columnResourceSize: 'Resource Size',
