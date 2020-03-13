@@ -24,6 +24,7 @@
 /* globals self Util */
 
 /** @typedef {import('./dom.js')} DOM */
+/** @typedef {import('./details-renderer.js')} DetailsRenderer */
 
 class CriticalRequestChainRenderer {
   /**
@@ -164,7 +165,7 @@ class CriticalRequestChainRenderer {
    * @param {DOM} dom
    * @param {ParentNode} templateContext
    * @param {LH.Audit.Details.CriticalRequestChain} details
-   * @param {DetailsRenderer} detailsRenderer
+   * @param {DetailsRenderer} detailsRenderer "any" currently ... uhoh
    * @return {Element}
    */
   static render(dom, templateContext, details, detailsRenderer) {
